@@ -1,0 +1,15 @@
+use ruby 1.9.2
+
+Import wordpress blog into "XX.xml"
+Copy "XX.xml" into this folder
+Run "ruby convert.rb XX.xml"
+The script will create a folder "_XXposts"
+All files are "*.markdown"
+
+
+feature:
+将中文的title转换为拼音,因为现在的octopress暂时不支持中文
+fix title转换的bug
+增加category,以及删除codesyntex
+
+
